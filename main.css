@@ -18,3 +18,21 @@ h1 {
   padding: 20px 0;
   justify-content: center;
 }
+
+.card-title {
+  border: 1px solid lightblue;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+header {
+  font-weight: bold;
+}
+
+footer {
+  color: yellow;
+  font-weight: bold;
+  background-color: darkgray;
+}
