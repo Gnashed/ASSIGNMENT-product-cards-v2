@@ -2,7 +2,7 @@ body {
   background-color: rgb(41, 33, 33);
   min-height: 100vh;
   text-align: center;
-  padding: 60px;
+  padding: 20px;
 }
 
 h1 {
@@ -10,7 +10,9 @@ h1 {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  border: yellow 4px solid;
+}
+
+.row {
+  border: blue 4px solid;
 }
