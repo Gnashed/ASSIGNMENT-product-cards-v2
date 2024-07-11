@@ -36,3 +36,8 @@ footer {
   font-weight: bold;
   background-color: darkgray;
 }
+
+h4 {
+  display: flex;
+  justify-content: center;
+}
