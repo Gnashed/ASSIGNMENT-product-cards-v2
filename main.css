@@ -16,4 +16,5 @@ h1 {
 .row {
   border: blue 4px solid;
   padding: 20px 0;
+  justify-content: center;
 }
