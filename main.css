@@ -10,12 +10,14 @@ h1 {
 }
 
 .container {
-  border: yellow 4px solid;
+  /* border: yellow 4px solid; */
+  margin-top: 70px;
 }
 
 .row {
-  border: blue 4px solid;
-  padding: 20px 0;
+  /* border: blue 4px solid; */
+  margin: 15px 0;
+  padding-bottom: 20px;
   justify-content: center;
 }
 
@@ -35,4 +37,9 @@ footer {
   color: yellow;
   font-weight: bold;
   background-color: darkgray;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
 }
