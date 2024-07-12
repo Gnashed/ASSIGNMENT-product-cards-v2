@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(41, 33, 33);
+  /* background-color: ; */
   min-height: 100vh;
   text-align: center;
   padding: 20px;
@@ -21,8 +21,21 @@ h1 {
   justify-content: center;
 }
 
+.card:hover {
+  /* animation-name: product-card; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .card-title {
   border: 1px solid lightblue;
+}
+
+img {
+  transition: transform 0.30s;
+}
+
+img:hover {
+  transform: scale(1.07, 1.07);
 }
 
 .card-text {
